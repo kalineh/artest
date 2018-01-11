@@ -255,6 +255,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 133980963}
+--- !u!1001 &210062618
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4900774427657478, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900774427657478, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900774427657478, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900774427657478, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900774427657478, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900774427657478, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900774427657478, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900774427657478, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e25e56fa7a3a8344cab8be32d7e37a42, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &269452904
 Prefab:
   m_ObjectHideFlags: 0
@@ -957,7 +999,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: aa869ccff81b8124cbb8289255621867, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

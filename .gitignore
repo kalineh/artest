@@ -35,3 +35,7 @@ sysinfo.txt
 /artest/.vs/artest/v15/Server/sqlite3/db.lock
 /artest/.vs/artest/v15/Server/sqlite3/storage.ide
 /artest/Library
+/artest/.vs/artest/v15/Server/sqlite3/storage.ide-shm
+/artest/.vs/artest/v15/Server/sqlite3/storage.ide-wal
+/artest/Temp
+/artest/obj/Debug

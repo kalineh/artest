@@ -39,7 +39,6 @@ GameObject:
   - component: {fileID: 4900774427657478}
   - component: {fileID: 54831745301536798}
   - component: {fileID: 65519360128410932}
-  - component: {fileID: 114812704766671118}
   m_Layer: 10
   m_Name: PfbChicken
   m_TagString: Untagged
@@ -86,7 +85,7 @@ Transform:
   m_GameObject: {fileID: 1047663945960044}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.14661075, y: 0.3443608, z: 0.729707}
+  m_LocalScale: {x: 0.049247548, y: 0.07567303, z: 1.95}
   m_Children: []
   m_Father: {fileID: 4900774427657478}
   m_RootOrder: 1
@@ -182,7 +181,7 @@ MeshFilter:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1980763387715724}
-  m_Mesh: {fileID: 4300000, guid: 33bee4529afa2d740bfcc71a4c9f1f2c, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 7bad4e7c89be10a4083226108ffcab9d, type: 3}
 --- !u!33 &33043261134364528
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -215,8 +214,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.1156268, y: 0.16075325, z: 0.22633111}
-  m_Center: {x: 0.004030697, y: 0.079372406, z: 0.018067017}
+  m_Size: {x: 0.049199373, y: 0.062325, z: 0.05905386}
+  m_Center: {x: -0.00023660809, y: 0.030158281, z: 0.00036550313}
 --- !u!95 &95254642680643386
 Animator:
   serializedVersion: 3
@@ -244,16 +243,5 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fcdb08f57e84dec4a905872701251115, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114812704766671118
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1222355468642476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 669ad8e719aa74844ab00454602c4465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

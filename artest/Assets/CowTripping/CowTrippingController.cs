@@ -186,13 +186,20 @@ namespace GoogleARCore.HelloAR
                     var objBody = objInfo.collider.gameObject.GetComponent<Rigidbody>();
                     if (objBody != null)
                     {
+                        var force = objBody.useGravity ? Vector3.up * 125.0f : objRay.direction * 25.0f;
+
                         objBody.AddTorque(0.0f, 15000.0f, 0.0f, ForceMode.Acceleration);
-                        objBody.AddForceAtPosition(Vector3.up * 125.0f, objInfo.point, ForceMode.Acceleration);
+                        objBody.AddForceAtPosition(force, objInfo.point, ForceMode.Acceleration);
                     }
                 }
 
                 return;
             }
+
+            if (clickPrefab != null && !clickPrefabRequireTarget && objHit)
+                return;
+            if (clickPrefab != null && clickPrefabRequireTarget && !objHit)
+                return;
 
             if (clickPrefab != null && clickPrefabRequireTarget && objHit)
             {
@@ -201,6 +208,8 @@ namespace GoogleARCore.HelloAR
                 var spawnObj = GameObject.Instantiate(clickPrefab, spawnPos, spawnRot);
 
                 Debug.LogFormat("Click Attach Spawn: {0}", spawnObj.name);
+
+                spawnObj.transform.parent = objInfo.collider.gameObject.transform.parent;
 
                 clickPrefab = null;
                 clickPrefabRequireTarget = false;
